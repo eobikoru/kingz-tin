@@ -44,7 +44,7 @@ export const machineData: machineObject[] = [
   {
     id: "gghdgyduayewi662",
     src: "/asset/images/png/machine/machine4.jpg",
-    title: "Black Socket",
+    title: "Three phase circuit breaker",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "80000",
@@ -52,7 +52,7 @@ export const machineData: machineObject[] = [
   {
     id: "7u2wehebhsb",
     src: "/asset/images/png/machine/machine5.jpeg",
-    title: "Black Socket",
+    title: "Two pole circuit breaker",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "18350",
@@ -60,7 +60,7 @@ export const machineData: machineObject[] = [
   {
     id: "82uedujchjsgyhd",
     src: "/asset/images/png/machine/machine6.jpg",
-    title: "Black Socket",
+    title: "Single phase circuit breaker",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "100000",
@@ -68,15 +68,7 @@ export const machineData: machineObject[] = [
   {
     id: "77wushsv7hcb",
     src: "/asset/images/png/machine/machine7.jpg",
-    title: "Black Socket",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
-    buttonText: "View Product",
-    price: "100000",
-  },
-  {
-    id: "HBQ5a5XAlkdkfkQV",
-    src: "/asset/images/png/machine/machine8.jpg",
-    title: "Black Socket",
+    title: "Control board",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "100000",

@@ -11,7 +11,7 @@ export const fireAlarmData: fireAlarmObject[] = [
   {
     id: "m7UbkOmNoPjof",
     src: "/asset/images/png/alarm/Electronics1.jpg",
-    title: "CCTV Camera",
+    title: "Smoke detector alarm",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "64000",
@@ -19,7 +19,7 @@ export const fireAlarmData: fireAlarmObject[] = [
   {
     id: "MZfZx9",
     src: "/asset/images/png/alarm/electronics2.jpg",
-    title: "Black Socket",
+    title: " Detector alarm",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "3000",
@@ -27,7 +27,7 @@ export const fireAlarmData: fireAlarmObject[] = [
   {
     id: "scolkMjGp",
     src: "/asset/images/png/alarm/Elecctronics3.jpg",
-    title: "CCTV Camera",
+    title: "Fire alarm",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "9200",
@@ -35,7 +35,7 @@ export const fireAlarmData: fireAlarmObject[] = [
   {
     id: "Cs1va",
     src: "/asset/images/png/alarm/Electronics4.jpg",
-    title: "Black Socket",
+    title: "Fire safty alarm",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "10000",

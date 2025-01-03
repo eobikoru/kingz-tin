@@ -40,20 +40,20 @@ const FireAlarmProduct = ({ params }: { params: { product: string } }) => {
       style={heroStyle}
     >
       <h1 className="p-3 max-w-[1000px] mx-5 font-semibold text-xl text-white">
-        {findItem?.title}iujuu
+        {findItem?.title}
       </h1>
     </div>
     <section className="lg:max-w-[1000px] md:max-w-[800px]  my-4 mx-2 md:mx-auto">
       <div className="flex flex-col justify-center items-center pt-20">
         {findItem && (
-          <Image
-            src={findItem.src || ""}
-            alt="Electrical Product Img"
-            width={100}
-            height={100}
-            layout="responsive"
-            className=" w-full h-1/3 my-2 rounded-lg md:rounded-xl lg:rounded-2xl mx-2"
-          />
+          <img
+          src={findItem.src || ""}
+          alt="Electrical Product Img"
+          // width={20}
+          // height={20}
+          // layout="responsive"
+          className=" w-[27rem] h-[27rem] my-2 rounded-lg md:rounded-xl lg:rounded-2xl mx-2"
+        />
         )}
       </div>
         <div>

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import 'antd/dist/reset.css';
 import Navbar from "@/src/component/navbar";
 import Footer from "@/src/component/footer";
 import NextTopLoader from 'nextjs-toploader';
 export const metadata: Metadata = {
   title: "Tinaus Kingz",
-  description: "Electricals",
+  description: "Electricals products",
 };
 
 export default function RootLayout({

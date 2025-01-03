@@ -3,14 +3,15 @@ import React, { useState, useRef } from "react";
 import { GoArrowRight } from "react-icons/go";
 
 const videosList = [
-  { id: 1, src: "https://www.youtube.com/embed/xH_Dk4NHKCM" },
-  { id: 2, src: "/asset/gallery-videos/interior/interiorv2.mp4" },
-  { id: 3, src: "/asset/gallery-videos/interior/interiorv3.mp4" },
-  { id: 4, src: "/asset/gallery-videos/interior/interiorv4.mp4" },
-  { id: 5, src: "/asset/gallery-videos/interior/interiorv5.mp4" },
-  { id: 6, src: "/asset/gallery-videos/interior/interiorv6.mp4" },
-  { id: 7, src: "/asset/gallery-videos/interior/interiorv7.mp4" },
-  { id: 8, src: "/asset/gallery-videos/interior/interiorv8.mp4" },
+  { id: 1, src: "https://www.youtube.com/embed/8jpEdECNVgA" },
+  { id: 3, src: "https://www.youtube.com/embed/oNlWl_tYS6c" },
+  { id: 4, src: "https://www.youtube.com/embed/USwxcw8KYEY" },
+  { id: 6, src: "https://www.youtube.com/embed/sJoFPIXMbrs" },
+  { id: 7, src: "https://www.youtube.com/embed/UDCJ7_x_g9s" },
+  { id: 8, src: "https://www.youtube.com/embed/eYeAtZU0YxQ" },
+  { id: 9, src: "https://www.youtube.com/embed/dY84GF3E4h8" },
+  { id: 10, src: "https://www.youtube.com/embed/P-ce_MQTNZo" },
+  { id: 11, src: "https://www.youtube.com/embed/9pNRaU5M1Oc" },
 ];
 
 const imgList = [
@@ -35,7 +36,16 @@ const Gallery = () => {
 
   const scrollRight = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollLeft += 700; // Adjust scroll distance as needed
+      const { scrollLeft, clientWidth, scrollWidth } = sliderRef.current;
+      console.log("Current scroll position:", scrollLeft);
+      console.log("Scrollable width:", scrollWidth - clientWidth);
+
+      // Scroll only if there's content to scroll
+      if (scrollLeft + clientWidth < scrollWidth) {
+        sliderRef.current.scrollLeft += 700; // Adjust increment if necessary
+      } else {
+        console.log("Reached the end of the content.");
+      }
     }
   };
 

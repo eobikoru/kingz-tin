@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { GoArrowRight } from "react-icons/go";
-
 const videosList = [
-  { id: 2, src: "/asset/gallery-videos/academy/academyv2.mp4" },
-  { id: 1, src: "/asset/gallery-videos/academy/academyv1.mp4" },
-
+  { id: 1, src: "https://www.youtube.com/embed/m0HXioZFFh8" },
+  { id: 2, src: "https://www.youtube.com/embed/n5bTvg-t7A4" },
+  { id: 3, src: "https://www.youtube.com/embed/WIpA-H65vls" },
 ];
+
 
 const imgList = [
   { id: 6, src: "/asset/images/png/academy/academy6.jpg" },
@@ -69,7 +69,7 @@ const AcademyGallery = () => {
 
       <div
         ref={sliderRef}
-        className="flex mt-10 transition-all overflow-hidden max-w-[90vw] relative overflow-x-scroll"
+        className="flex mt-10 overflow-hidden max-w-[90vw] relative overflow-x-scroll"
         style={{
           scrollBehavior: "smooth",
           msOverflowStyle: "none",
@@ -77,20 +77,33 @@ const AcademyGallery = () => {
         }}
       >
         {isPhotosActive
-          ? imgList.map((image) => {
-              return (
-                <img
-                  src={image.src}
-                  alt="image"
-                  className="mx-5 rounded-lg w-[16rem] h-auto"
-                  key={image.id}
-                />
-              );
-            })
+          ? imgList.map((image) => (
+              <img
+                key={image.id}
+                src={image.src}
+                alt={`Gallery Image ${image.id}`}
+                className="mx-5 rounded-lg w-auto h-[23rem]"
+              />
+            ))
           : videosList.map((video) => {
-              return (
-                <video key={video.id} className="mx-10 max-h-[22rem] w-[29rem]" controls>
-                  <source src={video.src} type="video/webm" />
+              const isYouTube = video.src.includes("youtube.com/embed");
+              return isYouTube ? (
+                <iframe
+                  key={video.id}
+                  className="mx-5 max-h-[22rem] w-[34rem]"
+                  width="300"
+                  height="315"
+                  src={video.src}
+                  title={`YouTube video ${video.id}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                />
+              ) : (
+                <video
+                  key={video.id}
+                  className="mx-5 max-h-[22rem] w-[34rem]"
+                  controls
+                >
+                  <source src={video.src} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               );
