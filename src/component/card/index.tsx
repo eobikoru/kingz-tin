@@ -14,7 +14,7 @@ const Card = ({ src, title, text, onClick, id }: CardProps) => {
   };
 
   return (
-    <article className="w-[22rem]   sm:w-[18rem] md:w-[16rem] lg:w-[23rem] h-auto flex justify-center mx-2 bg-[#F9FAF9] my-2 rounded-2xl shadow-lg">
+    <article className="w-[18rem]   sm:w-[18rem] md:w-[16rem] lg:w-[23rem] h-auto flex justify-center mx-2 bg-[#F9FAF9] my-2 rounded-2xl shadow-lg">
       <div className="w-[92%] my-4">
         <div>
           <img     
