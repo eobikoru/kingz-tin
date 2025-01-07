@@ -26,7 +26,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "MZfZx9",
-    src: "/asset/images/png/domestic/Domestic114.jpg",
+    src: "/asset/images/png/domestic/domestic114.jpeg",
     title: "Wall Bracket Light",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -50,7 +50,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "ZGee9PkDrX",
-    src: "/asset/images/png/domestic/domestic8.jpg",
+    src: "/asset/images/png/domestic/Domestic8.jpeg",
     title: "Warm light Bulb",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -59,7 +59,7 @@ export const electricalData: SocketObject[] = [
 
   {
     id: "z7oNVc5HbWg",
-    src: "/asset/images/png/domestic/domestic10.jpg",
+    src: "/asset/images/png/domestic/Domestic10.jpeg",
     title: "Light Bulb",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -67,7 +67,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "VVjdrJDuapv",
-    src: "/asset/images/png/domestic/domestic11.jpg",
+    src: "/asset/images/png/domestic/Domestic11.jpeg",
     title: "Control Panel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -75,7 +75,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "8k3HqTIv8",
-    src: "/asset/images/png/domestic/domestic12.jpg",
+    src: "/asset/images/png/domestic/Domestic12.jpeg",
     title: "Distribution board",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -83,7 +83,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "cQSDDwqtEIo",
-    src: "/asset/images/png/domestic/domestic13.jpg",
+    src: "/asset/images/png/domestic/Domestic13.jpeg",
     title: "Distribution board",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -91,7 +91,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "PGooXYdD8ofbbYY",
-    src: "/asset/images/png/domestic/domestic14.jpg",
+    src: "/asset/images/png/domestic/Domestic14.jpeg",
     title: "Distribution board",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -99,7 +99,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "remrygYJflx",
-    src: "/asset/images/png/domestic/domestic15.jpeg",
+    src: "/asset/images/png/domestic/Domestic15.jpeg",
     title: "Circuit Breaker",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -107,7 +107,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "6YsQxYPYHy5upIaT10w",
-    src: "/asset/images/png/domestic/domestic16.jpeg",
+    src: "/asset/images/png/domestic/Domestic16.jpeg",
     title: "Control Box",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -115,7 +115,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "NcXX6qSNZeU6Q9",
-    src: "/asset/images/png/domestic/domestic17.jpeg",
+    src: "/asset/images/png/domestic/Domestic17.jpeg",
     title: "Control Box",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -124,7 +124,7 @@ export const electricalData: SocketObject[] = [
 
   {
     id: "vCNJRWjSTY",
-    src: "/asset/images/png/domestic/domestic18.jpeg",
+    src: "/asset/images/png/domestic/Domestic18.jpg",
     title: "3 Phase Control Box",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -133,7 +133,7 @@ export const electricalData: SocketObject[] = [
   
   {
     id: "vCNJRWjSTY",
-    src: "/asset/images/png/domestic/domestic23.png",
+    src: "/asset/images/png/domestic/Domestic23.png",
     title: "Nigerchin Cable",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -141,7 +141,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "vCNJRWjSTY",
-    src: "/asset/images/png/domestic/domestic24.jpeg",
+    src: "/asset/images/png/domestic/Domestic24.jpeg",
     title:  "Nigerchin Cable",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -150,7 +150,7 @@ export const electricalData: SocketObject[] = [
 
   {
     id: "vCNJRWjSTY",
-    src: "/asset/images/png/domestic/domestic26.jpg",
+    src: "/asset/images/png/domestic/Domestic26.jpg",
     title: "Coleman Cable",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
@@ -158,7 +158,7 @@ export const electricalData: SocketObject[] = [
   },
   {
     id: "vCNJRWjSTY",
-    src: "/asset/images/png/domestic/domestic27.jpeg",
+    src: "/asset/images/png/domestic/Domestic27.jpeg",
     title: "Coleman Cable",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",

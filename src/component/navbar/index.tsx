@@ -7,6 +7,7 @@ import NavItems from "./Navitems";
 import logo from "../../assets/logo/Tinaus Kingz Engineering Icon.png";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { APP_ROUTES } from "@/src/utils/appRoutes";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
 
         <div className="mr-3 flex ">
           <button className="bg-blue-500 font-semibold text-white px-5 py-2 rounded-lg hidden lg:flex">
-            <Link href="/sign-in">Product</Link>
+            <Link href={APP_ROUTES.ELETRONICS_PAGE}>Product</Link>
           </button>
         </div>
         <div onClick={() => setNav(!nav)} className="lg:hidden cursor-pointer">

@@ -3,6 +3,7 @@ import CoreValues from "@/src/component/core-values";
 import Hero from "@/src/component/hero";
 import React from "react";
 import { Carousel } from "antd";
+import ServiceGallery from "@/src/component/serviceGallery";
 
 const AboutPage = () => {
   return (
@@ -15,7 +16,8 @@ const AboutPage = () => {
       <section className="mt-20 mb-24 w-10/12 mx-auto">
         <About />
         <CoreValues />
-        <Carousel autoplay>
+        <ServiceGallery/>
+        {/* <Carousel autoplay>
           <div>
             <img
               src="/asset/images/carousel/image1.jpg"
@@ -44,7 +46,7 @@ const AboutPage = () => {
               className="w-full h-64 object-cover"
             />
           </div>
-        </Carousel>
+        </Carousel> */}
       </section>
     </main>
   );

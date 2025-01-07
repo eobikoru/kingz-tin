@@ -11,7 +11,7 @@ const About = () => {
 "
       />
       <Image
-        src="/about-us1.jpeg"
+        src="/asset/images/png/about-us1.jpeg"
         width={400}
         height={400}
         alt="/asset/images/png/about us"

@@ -1,3 +1,4 @@
+'use client'
 import { securityData } from "@/src/hooks/electronics/security/securityData";
 import imags from "@/src/assets/images/blue-bg.jpg";
 import Image from "next/image";
@@ -87,9 +88,13 @@ const SecurityProduct = ({ params }: { params: { product: string } }) => {
             </h1>
           </div>
         </div>
-        <button className="w-full md:w-1/4 mt-4 px-8 py-2 capitalize text-md text-white bg-blue-600 rounded-md hover:bg-blue-500">
-          Contact Us
-        </button>
+        <button
+  className="w-full md:w-1/4 mt-4 px-8 py-2 capitalize text-md text-white bg-blue-600 rounded-md hover:bg-blue-500"
+  onClick={() => window.open("https://wa.me/2348025128208", "_blank")}
+>
+  Contact Us
+</button>
+
 
         <div className="my-5 ml-3 md:ml-2 lg:ml-0 mt-10 md:mt-16 lg:mt-20">
           <h1 className="font-bold text-3xl my-5 mt-10">Similar Product</h1>

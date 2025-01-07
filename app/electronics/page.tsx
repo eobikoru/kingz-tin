@@ -28,7 +28,7 @@ const Electronics = () => {
 
   const onChange = (key: string) => {};
   return (
-    <div className="mt-[4.1rem]">
+    <div className=" mt-[4rem] lg:mt-[5rem]">
       <Hero
         image="/asset/images/svg/Security.svg"
         title="Explore the Boundless Universe of Electronics Innovations!"

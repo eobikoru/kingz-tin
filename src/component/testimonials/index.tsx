@@ -2,8 +2,8 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import TestimonyCard from "./TestimonyCard";
-import img1 from "@/src/assets/testimony-images/img1.svg";
-import img2 from "@/src/assets/testimony-images/img2.svg";
+import img1 from "@/src/assets/testimony-images/review.jpeg";
+import img2 from "@/src/assets/testimony-images/review1.jpeg";
 import img3 from "@/src/assets/testimony-images/img3.svg";
 import bgImg from "@/src/assets/images/blue-bg.jpg";
 import { FaLessThan, FaGreaterThan } from "react-icons/fa6";
@@ -12,13 +12,13 @@ const testimonies = [
   {
     id: 1,
     img: img1,
-    author: " Chidinma Okonkwo, Lagos",
+    author: " Barr Kess Sage",
     text: "Tinaus Kings made upgrading my home a breeze! From recommending the perfect appliances to expertly installing them, they exceeded my expectations. Now, my home is not only more functional but also stylish. Highly recommend their services!",
   },
   {
     id: 2,
     img: img2,
-    author: " Yusuf Badejo, Ogun",
+    author: "CHINOMSO ONU",
     text: "I was impressed by the professionalism of the Tinaus Kings team during the installation of our new transformer. They completed the job efficiently and with great attention to detail. Now, we have a reliable power supply that has significantly improved operations at our facility. Thank you, Tinaus Kings!",
   },
   {
