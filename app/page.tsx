@@ -1,5 +1,5 @@
 'use client'
-import Landing from "@/src/pages/landing-page";
+import Landing from "@/src/features/landing-page";
 
 export default function Home() {
 

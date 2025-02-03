@@ -113,10 +113,16 @@ const Accordion: React.FC = () => {
         </h3>
         <p>
           Can’t find the answer you’re looking for? Kindly contact{" "}
-          <span className="underline text-blue-500 cursor-pointer">
-            {" "}
-            customer support
-          </span>{" "}
+          <a
+  href="https://wa.me/2348025128208"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="underline text-blue-500 px-2 cursor-pointer"
+
+>
+  customer support
+</a>
+
           for swift response.
         </p>
       </div>

@@ -16,6 +16,7 @@ const TestimonyCard = ({ testimony }: TestimonyCardProps) => {
       <Image
         src={testimony.img}
         alt="Testimonial Image"
+        width={300} height={300}
         className="rounded-lg w-[12rem] h-[12rem] mb-3 md:mb-auto object-contain md:w-[15rem] md:h-[15rem] lg:w-[20rem] lg:h-[20rem]"
       />
 

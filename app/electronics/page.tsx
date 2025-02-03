@@ -2,9 +2,9 @@
 import Card from "@/src/component/card";
 import Hero from "@/src/component/hero";
 import Tab from "@/src/component/tabs";
-import FireAlarm from "@/src/pages/electronicPage/fireAlarm";
-import Network from "@/src/pages/electronicPage/network";
-import Security from "@/src/pages/electronicPage/security";
+import FireAlarm from "@/src/features/electronicPage/fireAlarm";
+import Network from "@/src/features/electronicPage/network";
+import Security from "@/src/features/electronicPage/security";
 import SearchSection from "@/src/component/searchSection";
 
 const Electronics = () => {

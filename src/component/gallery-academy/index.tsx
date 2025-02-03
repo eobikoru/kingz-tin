@@ -19,6 +19,16 @@ const imgList = [
   { id: 7, src: "/asset/images/png/academy/academy7.jpg" },
   { id: 8, src: "/asset/images/png/academy/academy8.jpg" },
   { id: 10, src: "/asset/images/png/academy/academy10.jpg" },
+  { id: 11, src: "/asset/images/png/academy/academy11.jpg" },
+  { id: 12, src: "/asset/images/png/academy/academy12.jpg" },
+  { id: 13, src: "/asset/images/png/academy/academy13.jpg" },
+  { id: 14, src: "/asset/images/png/academy/academy14.jpg" },
+  { id: 15, src: "/asset/images/png/academy/academy15.jpg" },
+  { id: 16, src: "/asset/images/png/academy/academy16.jpg" },
+  { id: 17, src: "/asset/images/png/academy/academy17.jpg" },
+  { id: 18, src: "/asset/images/png/academy/academy18.jpg" },
+  { id: 19, src: "/asset/images/png/academy/academy19.jpg" },
+
 ];
 
 const AcademyGallery = () => {

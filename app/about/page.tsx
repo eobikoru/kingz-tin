@@ -1,5 +1,5 @@
 'use client'
-import AboutPage from "@/src/pages/about-page";
+import AboutPage from "@/src/features/about-page";
 import React from "react";
 
 const About = () => {

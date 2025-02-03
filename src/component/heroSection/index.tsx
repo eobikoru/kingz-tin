@@ -22,27 +22,18 @@ const HeroSection = () => {
           <div className="w-[93%]">
             {/* Adding animation to h1 */}
             <div className="mt-14 md:mt-20 md:mb-7 mb-8 flex justify-center">
-              <motion.h1
-                className="text-[1.6rem] sm:text-[1rem] text-white md:text-[2.4rem] lg:text-[2.7rem] font-bold tracking-wide"
-                initial={{ opacity: 0, y: -50 }} // Starting state
-                animate={{ opacity: 1, y: 0 }} // Final state
-                transition={{ duration: 1 }} // Duration of animation
-              >
+              <h1 className="text-[1.6rem] sm:text-[1rem] text-white md:text-[2.4rem] lg:text-[2.7rem] font-bold tracking-wide animate-fade-in-down">
                 Experience Ease with Our Smart Solutions!
-              </motion.h1>
+              </h1>
             </div>
 
-            {/* Adding animation to paragraph */}
+     
             <div className="flex justify-center">
               <div className="md:flex md:justify-center sm:w-4/5 md:w-[850%] md:w-full">
-                <motion.p
-                  className="text-white tracking-wide text-[0.9rem] sm:text[1rem] md:text-[1rem] lg:text-[1.1rem]"
-                  initial={{ opacity: 0, y: 50 }} // Starting state
-                  animate={{ opacity: 1, y: 0 }} // Final state
-                  transition={{ duration: 1, delay: 0.2 }} // Duration with slight delay
-                >
-                  We are your Trusted Partner for Solar, Security, and Networking Innovations. Need help with any of these?
-                </motion.p>
+                <p className="text-white tracking-wide text-[0.9rem] sm:text[1rem] md:text-[1rem] lg:text-[1.1rem] animate-fade-in-up">
+                  We are your Trusted Partner for Solar, Security, and Networking Innovations. Need help with any of
+                  these?
+                </p>
               </div>
             </div>
           </div>

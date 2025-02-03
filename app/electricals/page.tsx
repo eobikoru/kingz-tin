@@ -2,10 +2,10 @@
 
 import Hero from "@/src/component/hero";
 import Tab from "@/src/component/tabs";
-import Domestic from "@/src/pages/electricalPage/domestic";
-import Machine from "@/src/pages/electricalPage/machine";
-import Solar from "@/src/pages/electricalPage/solar";
-import Transformer from "@/src/pages/electricalPage/transformer";
+import Domestic from "@/src/features/electricalPage/domestic";
+import Machine from "@/src/features/electricalPage/machine";
+import Solar from "@/src/features/electricalPage/solar";
+import Transformer from "@/src/features/electricalPage/transformer";
 
 
 const Electricals = () => {
