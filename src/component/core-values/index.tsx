@@ -6,7 +6,7 @@ const CoreValues = () => {
   return (
     <div>
       <h2 className="capitalize text-4xl text-center font-bold mb-8">
-      Here’s what you can expect when you work with Tinaus Kings;
+      Here’s what you can expect when you work with Tinaus Kingz;
       </h2>
       <div className="lg:grid lg:grid-cols-3 lg:items-center lg:gap-6">
         <div>

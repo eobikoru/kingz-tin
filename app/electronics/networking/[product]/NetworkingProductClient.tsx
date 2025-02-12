@@ -2,7 +2,7 @@
 
 import imags from "@/src/assets/images/blue-bg.jpg"
 import Marquee from "react-fast-marquee"
-import NetworkingSimilarProduct from "@/src/component/similar-products/electronics/networking"
+import NetworKingzimilarProduct from "@/src/component/similar-products/electronics/networking"
 
 const formatPrice = (price: string) => {
   return price.replace(/\B(?=(\d{3})+(?!\d))/g, ",")
@@ -64,7 +64,7 @@ const NetworkingProductClient = ({ item }: { item: any }) => {
         <div className="my-5 ml-3 md:ml-2 lg:ml-0 mt-10 md:mt-16 lg:mt-20">
           <h1 className="font-bold text-3xl my-5 mt-10">Similar Product</h1>
           <Marquee>
-            <NetworkingSimilarProduct />
+            <NetworKingzimilarProduct />
           </Marquee>
         </div>
       </section>

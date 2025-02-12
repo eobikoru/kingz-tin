@@ -12,7 +12,7 @@ const Partnership = () => {
   return (
     <div className="mt-[4rem]">
        <Hero
-        image="/asset/images/svg/partner.svg"
+        image="/asset/images/png/inter.jpeg"
         title={title}
         text={text} />
       <Offers />

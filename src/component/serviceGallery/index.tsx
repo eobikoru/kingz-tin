@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useRef } from "react";
 import Image from "next/image";
-import { Carousel, Tabs, Spin } from "antd";
+import { Carousel, Tabs } from "antd";
 import type { TabsProps } from "antd";
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const videosList = [
   { id: 1, src: "https://www.youtube.com/embed/xmKFsMq9x5E" },
@@ -60,67 +61,112 @@ const imgList = [
   { id: 32, src: "/asset/images/png/abt/abt32.jpg" },
   { id: 33, src: "/asset/images/png/abt/abt33.jpg" },
   { id: 34, src: "/asset/images/png/abt/abt34.jpg" },
-]
-const VideoCarousel = () => {
-  const [loading, setLoading] = useState(true);
+];
+const ScrollableList = ({
+  children,
+  scrollRef,
+  scroll,
+}: {
+  children: React.ReactNode;
+  scrollRef: React.RefObject<HTMLDivElement>;
+  scroll: (direction: "left" | "right") => void;
+}) => (
+  <div className="relative w-full">
+    <button
+      className="absolute left-0 top-1/2 -translate-y-1/2 bg-white shadow-md p-2 rounded-full z-10"
+      onClick={() => scroll("left")}
+    >
+      <LeftOutlined />
+    </button>
 
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000);
-    return () => clearTimeout(timer);
-  }, []);
+    <div
+      ref={scrollRef}
+      className="flex overflow-x-auto gap-4 px-10 py-4 scrollbar-hide"
+      style={{ scrollBehavior: "smooth" }}
+    >
+      {children}
+    </div>
+
+    <button
+      className="absolute right-0 top-1/2 -translate-y-1/2 bg-white shadow-md p-2 rounded-full z-10"
+      onClick={() => scroll("right")}
+    >
+      <RightOutlined />
+    </button>
+  </div>
+)
+const PhotoGallery = () => {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (direction: "left" | "right") => {
+    if (scrollRef.current) {
+      const { scrollLeft, clientWidth } = scrollRef.current;
+      const scrollAmount = clientWidth * 0.7;
+      scrollRef.current.scrollTo({
+        left: direction === "left" ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
-    <>
-      {loading ? (
-        <div className="flex justify-center items-center h-[29rem]">
-          <Spin size="large" />
+    <ScrollableList scrollRef={scrollRef} scroll={scroll}>
+      {imgList.map((img) => (
+        <div key={img.id} className="relative w-96 h-72 bg-gray-100 flex-shrink-0">
+          <Image
+            src={img.src}
+            alt={`Image ${img.id}`}
+            layout="fill"
+            objectFit="contain"
+            className="w-full h-full rounded-lg"
+          />
         </div>
-      ) : (
-        <Carousel autoplay>
-          {videosList.map((video) => (
-            <div key={video.id} className="aspect-w-16 aspect-h-9">
-              <iframe
-                src={video.src}
-                title={`Video ${video.id}`}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-[29rem]"
-              />
-            </div>
-          ))}
-        </Carousel>
-      )}
-    </>
+      ))}
+    </ScrollableList>
   );
 };
 
-const PhotoCarousel = () => (
-  <Carousel autoplay className="photo-carousel">
-    {imgList.map((img) => (
-      <div key={img.id} className="relative h-[600px] bg-gray-100">
-        <Image
-          src={img.src}
-          alt={`Image ${img.id}`}
-          layout="fill"
-          objectFit="contain"
-          className="w-full h-full"
+const VideoList = () => {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (direction: "left" | "right") => {
+    if (scrollRef.current) {
+      const { scrollLeft, clientWidth } = scrollRef.current;
+      const scrollAmount = clientWidth * 0.7;
+      scrollRef.current.scrollTo({
+        left: direction === "left" ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return (
+    <ScrollableList scrollRef={scrollRef} scroll={scroll}>
+      {videosList.map((video) => (
+        <iframe
+          key={video.id}
+          src={video.src}
+          title={`Video ${video.id}`}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-96 h-72 flex-shrink-0 border rounded-lg"
         />
-      </div>
-    ))}
-  </Carousel>
-);
+      ))}
+    </ScrollableList>
+  );
+};
 
 export default function ServiceGallery() {
   const items: TabsProps["items"] = [
     {
       key: "1",
       label: "Photos",
-      children: <PhotoCarousel />,
+      children: <PhotoGallery />,
     },
     {
       key: "2",
       label: "Videos",
-      children: <VideoCarousel />,
+      children: <VideoList />,
     },
   ];
 

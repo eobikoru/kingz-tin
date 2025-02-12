@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <main>
       <Hero
-        image="/asset/images/svg/about-us.svg"
+        image="/asset/images/png/abt/book.jpeg"
         title="Boosting the world with sustainable power"
         text="Boosting the world with sustainable power. Boosting the world with sustainable."
       />

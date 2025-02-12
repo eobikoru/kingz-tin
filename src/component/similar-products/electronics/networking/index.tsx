@@ -4,7 +4,7 @@ import Card from "../../../card";
 import { useRouter } from "next/navigation";
 import { APP_ROUTES } from "@/src/utils/appRoutes";
 
-const NetworkingSimilarProduct = () => {
+const NetworKingzimilarProduct = () => {
   const router = useRouter();
 
   const handleClick = (id: string | undefined) => {
@@ -28,4 +28,4 @@ const NetworkingSimilarProduct = () => {
   );
 };
 
-export default NetworkingSimilarProduct;
+export default NetworKingzimilarProduct;

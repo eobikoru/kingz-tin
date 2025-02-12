@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="h-full flex items-center bg-black/70 justify-center text-white py-12 bg-no-repeat bg-cover rounded-xl w-full">
             <div className="h-full w-full md:px-4 lg:px-5 mx-auto flex justify-center flex-col items-center">
               <h1 className="text-xl md:text-3xl lg:text-4xl font-semibold mb-9">
-                Elevate your home with Tinaus Kings.
+                Elevate your World with Tinaus Kingz.
               </h1>
               <p className="mb-4 px-1 md:px-0 md:w-3/5 leading-relaxed text-center">
                 At Tinuas Kingz, we believe in the power of connection to drive
@@ -61,7 +61,8 @@ const Footer = () => {
       <footer className="pb-10 bg-blue-950 p-4 text-white/80 lg:text-xs md:text-sm text-base lg:leading-loose flex flex-col md:flex-row items-start md:items-center justify-around w-full md:h-full md:pt-[13rem] lg:pt-[17rem]">
         <section className="mx-2 mt-60 md:mt-10 md:py-0">
           <Image src={logo} alt="logo" width={40} height={40} className="mb-[.3rem]" />
-          <p>&copy; {date} Tinaus Kingz Engineering Inc.</p>
+          <p>&copy; {date} Tinaus Kingz Engineering Inc. <br/>Ethical Energy Illumination</p>
+          
           <p>All Rights Reserved</p>
           <p>Privacy Policy | Terms of Use</p>
           <p>Cookies Preferences</p>
@@ -91,7 +92,7 @@ const Footer = () => {
           <ul>
             <li className="mt-3">Partnership</li>
             <div className="w-[1.2rem] h-[.4px] bg-white/40 rounded"></div>
-            <li className="my-2">Interior Design</li>
+            <li className="my-2">Radiant Creativity interior design</li>
           </ul>
         </section>
 

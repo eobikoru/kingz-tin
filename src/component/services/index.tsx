@@ -18,7 +18,7 @@ const OurServices = () => {
       <div className=" w-full  flex justify-center mt-6 ">
         <div className=" flex justify-center w-3/4 md:w-5/6 ">
         <p className="font-semibold lg:text-xl">
-    At Tinaus Kings, we&apos;re dedicated to providing top-notch solutions to meet all your home improvement, security, and technology needs. Explore our range of services tailored to enhance your lifestyle and safeguard your property.
+    At Tinaus Kingz, we&apos;re dedicated to providing top-notch solutions to meet all your home improvement, security, and technology needs. Explore our range of services tailored to enhance your lifestyle and safeguard your property.
       </p>
         </div>
       </div>

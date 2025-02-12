@@ -7,7 +7,7 @@ const About = () => {
     <div className="mb-20">
       <AboutUs
         title="Who We Are."
-        text="Tinaus Kings is a leading provider of home improvement, security, and technology solutions in Nigeria. With a passion for innovation and a commitment to excellence, we strive to deliver top-quality products and services that enhance the lives of our customers.
+        text="Tinaus Kingz is a leading provider of home improvement, security, and technology solutions in Nigeria. With a passion for innovation and a commitment to excellence, we strive to deliver top-quality products and services that enhance the lives of our customers.
 "
       />
       <Image

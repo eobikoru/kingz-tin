@@ -10,21 +10,21 @@ import { FaLessThan, FaGreaterThan } from "react-icons/fa6";
 const testimonies = [
   {
     id: 1,
-    img: img1.src, // Convert StaticImageData to string
-    author: "Barr Kess Sage",
-    text: "Tinaus Kings made upgrading my home a breeze! From recommending the perfect appliances to expertly installing them, they exceeded my expectations. Now, my home is not only more functional but also stylish. Highly recommend their services!",
+    img: img2.src, // Convert StaticImageData to string
+    author: "CHINOMSO ONU",
+    text: "Tinaus Kingz made upgrading my home a breeze! From recommending the perfect appliances to expertly installing them, they exceeded my expectations. Now, my home is not only more functional but also stylish. Highly recommend their services!",
   },
   {
     id: 2,
-    img: img2.src, 
-    author: "CHINOMSO ONU",
-    text: "I was impressed by the professionalism of the Tinaus Kings team during the installation of our new transformer...",
+    img: img1.src, 
+    author: "Barr Kess Sage",
+    text: "I was impressed by the professionalism of the Tinaus Kingz team during the installation of our new transformer...",
   },
   {
     id: 3,
     img: img3.src, 
     author: "Emeka daniel",
-    text: "I recently invested in solar panels for my home, and Tinaus Kings made the process seamless...",
+    text: "I recently invested in solar panels for my home, and Tinaus Kingz made the process seamless...",
   },
 ];
 

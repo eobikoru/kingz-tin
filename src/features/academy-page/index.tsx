@@ -9,7 +9,7 @@ const AcademyPage = () => {
   return (
     <main>
     <Hero
-        image="/asset/images/svg/about-us.svg"
+        image="/asset/images/png/academy/abtsec.jpeg"
         title="Academy for a Brighter and Sustainable Future."
         text="Inspiring Change. Powering the World Sustainably."
       />

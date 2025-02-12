@@ -43,7 +43,7 @@ export const electricalData: SocketObject[] = [
   {
     id: "VKx2QhedjwO0",
     src: "/asset/images/png/domestic/domestic7.jpg",
-    title: "Chanderlier",
+    title: "Chandelier",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos molestias ea rem enim. Illo iure porro tempore accusamus incidunt ad quidem mollitia aliquam? Repellat, delectus placeat. Dicta a atque commodi ea vitae tempora assumenda consectetur! Amet placeat vitae dicta.",
     buttonText: "View Product",
     price: "54400",

@@ -24,7 +24,7 @@ const reviewData: ReviewDataType[] = [
   },
   {
     id: 2,
-    name: "Emmanue Olarenwaju Victor",
+    name: "Emmanuel Olarenwaju Victor",
     img: "",
     date: "9 sept 2023",
     rating: 5,
